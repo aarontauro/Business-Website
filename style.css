@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-style: inherit;
+  background-color: transparent;
+}
+nav {
+  background-color: rgb(57, 52, 52);
+  height: 60px;
+}
+.home {
+  margin-left: 60vw;
+}
+.logo {
+  font-size: xx-large;
+  color: aquamarine;
+  padding-top: 10px;
+  margin-left: 20px;
+}
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  font-size: x-large;
+  margin-top: 10px;
+  color: antiquewhite;
+  margin-left: 30px;
+}
+nav ul li a {
+  /* margin-left:100px; */
+  color: antiquewhite;
+  text-decoration: none;
+}
+.dropdown-content {
+  position: absolute;
+  right: 8.5vw;
+  margin-top: 60px;
+  border: solid black 1px;
+  display: none;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  display: block;
+}
+.dropdown-content a:hover {
+  color: black;
+  background-color: antiquewhite;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.active {
+  display: block;
+}
+
+section h1{
+    display: inline;
+    font-size: xx-large;
+    margin-left: 25vw;
+    position: relative;
+}
+#catogory,
+#cartBtn {
+  cursor: pointer;
+}
+section {
+  width: 100%;
+  height: 40vw;
+}
+div .row {
+  width: 100vw;
+  height: 40vh;
+  display: flex;
+  margin: 60px 0;
+}
+div .col {
+  display: flex;
+  width: 30vw;
+  height: 43vh;
+  border: solid black;
+  align-items: center;
+  justify-content: space-around;
+  margin: 5px auto;
+  background-color: transparent;
+}
+.addimg img {
+  margin-bottom: 20px;
+  width: 100vw;
+  height: 700px;
+}
+.addimg h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: brown;
+  margin: 150px 0 50px 40vw;
+  text-shadow: 0 1px black, 2px 0 black, 0 1px black;
+}
+.Aimg {
+  width: 15vw;
+  height: 40vh;
+  border-radius: 50px;
+  padding: 5px;
+}
+
+.Aimg:hover {
+  width: 17vw;
+  height: 43vh;
+  cursor: pointer;
+}
+.col:hover {
+   transition: all .1s ease;
+  cursor: pointer;
+  border: solid black 0.25px;
+  font-size: large;
+  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  .Aimg {
+    width: 17vw;
+    height: 43vh;
+    cursor: pointer;
+  }
+}
+.infoC {
+  margin-left: 10px;
+}
+.bname {
+  display: block;
+  font-size: xx-large;
+  color: brown;
+  margin: 5px 0;
+  font-weight: 900;
+}
+.info {
+  display: block;
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+.nMRP {
+  color: green;
+  font-size: x-large;
+  border-radius: 10px;
+  padding: 5px;
+  font-weight: bolder;
+}
+#topBtn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  position: fixed;
+  right: 20px;
+  bottom: 70px;
+  font-size: xx-large;
+}
+#topBtn:hover {
+  cursor: pointer;
+  background: #ce6060;
+}
+
+.cart {
+  position: fixed;
+  right: 0px;
+  top: 70px;
+  width: 50vw;
+  height: 70vw;
+  border: solid black 5px;
+}
+
+#cart {
+  display: none;
+}
+#cart h1 {
+  margin: 20px 0 50px 300px;
+  font-weight: 700;
+}
+.exit {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border: black;
+}
+.exit:hover {
+  cursor: pointer;
+}
+footer{
+    height: 40px;
+    width: 100vw;
+    color: antiquewhite;
+    background-color: rgb(57, 52, 52);
+    padding-left: 33vw;
+    padding-top:20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
